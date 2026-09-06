@@ -159,7 +159,7 @@
         maplibregl.addProtocol("pmtiles", protocol.tile);
 
         // 地形分類ベクトルタイル
-        let PMTiles_URL = "https://xs489works.xsrv.jp/pmtiles-data/landform/landformclassification1_modified.pmtiles";
+        let PMTiles_URL = "https://shi-works.com/pmtiles/landform/landformclassification1_modified.pmtiles";
 
         const p = new pmtiles.PMTiles(PMTiles_URL)
         p.getMetadata().then((res) => console.log(res));
